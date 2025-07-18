@@ -90,6 +90,23 @@ cd Organoid_GFP_Analysis
   ```python
   python -m ipykernel insatll --user --name organoid-env --display-name "organoid-env"
   ```
+
+### 5. Launching the `organoid-env` environment
+
+* We can launch the `organoid-env` conda env in two ways: 1. via anaconda prompt or 2. we can directly load the conda kernel in `VS-Code`
+* 1. For anaconda prompt first open anaconda prompt:
+     <img width="869" height="516" alt="image" src="https://github.com/user-attachments/assets/c3af3531-830a-4f39-874c-4253b2191c48" />
+* 2. In the command line/terminal type in the following command:
+  ```bash
+  conda activate organoid-env
+  ```
+  then
+  ```bash
+  jupyter lab
+  ```
+  The `organoid-env` is loaded by default, but if its not loaded, we can select the kernel from the dropdown box on the top right hand.
+
+* 3. Now you can directly run the `.ipynb` notebooks within the jupyter-lab or directly execute the python script from the command line.
   
 
 ## Output Example
@@ -154,4 +171,3 @@ Cite as: Arkajyoti sarkar. (2025). HPC-Organoid-Quant (v1.0.0). Zenodo. https://
 [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
-
